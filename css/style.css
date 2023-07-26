@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf") format("ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+ul,li {
+    list-style: none;
+}
+
+li>a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    display: block;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+li>a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    display: flex;
+    width: 620px;
+    justify-content: space-between;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    margin-bottom: 150px;
+}
+
+header {
+    background-color: #eeeff1;
+    height: 700px;
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 48px;
+    margin-top: 0;
+}
+
+.header-main_title {
+    width: 540px;
+}
+
+.header-main_title p {
+    margin-bottom: 50px;
+}
+
+.header-button {
+    display: block;
+    width: 225px;
+    height: 65px;
+    background-color: #34547A;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.about-me {
+    height: 300px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.about-me p {
+    width: 540px;
+    margin: 0 auto;
+}
+
+.projects {
+    min-height: 250px;
+    background-color: #34547A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects-item {
+    width: 142px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects-item_number {
+    margin-bottom: 8px;
+}
